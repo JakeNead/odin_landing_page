@@ -126,7 +126,6 @@ h2 {
 
 div em {
     display: flex;
-    /* margin: 50px 150px 25px 150px; */
     justify-content: end;
     color: #1f2937;
 }
@@ -134,7 +133,6 @@ div em {
 #marty-quote {
     display: flex;
     justify-content: end;
-    /* margin: 10px 60px 50px 10px; */
     font-size: 24px;
 }
 
