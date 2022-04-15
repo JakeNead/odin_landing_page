@@ -121,22 +121,54 @@ h2 {
     font-size: 36px;
     display: flex;
     flex-direction: column;
-    padding: 20px 40px;
+    padding: 100px 250px;
 }
 
 div em {
     display: flex;
-    margin: 20px 80px 5px 80px;
+    /* margin: 50px 150px 25px 150px; */
     justify-content: end;
+    color: #1f2937;
 }
 
 #marty-quote {
     display: flex;
     justify-content: end;
-    margin: 0px 60px 20px 0px;
+    /* margin: 10px 60px 50px 10px; */
     font-size: 24px;
 }
 
 .quote-container p {
+    margin: 10px 30px;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #3882f6;
+    margin: 50px 100px;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-text 
+h3, 
+.sign-up-text
+p {
     margin: 0px;
+}
+
+#bottom-button {
+    margin: 30px 10px;
+    border: 1px solid white;
+}
+
+footer {
+    text-align: center;
+    padding: 30px
 }
